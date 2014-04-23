@@ -5,23 +5,36 @@
    "name": "Serif",
    "children": [
     {
-     "name": "cluster",
+     "name": "Old style",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "MergeEdge", "size": 743}
+      {"name": "Ex1", "size": 3938},
+      {"name": "Ex2", "size": 743}
      ]
     },
     {
-     "name": "Sans serif",
+     "name": "Transitional",
      "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
+      {"name": "Ex1", "size": 3938},
+      {"name": "Ex2", "size": 743}
+     ]
+    },
+    {
+     "name": "Modern",
+     "children": [
+      {"name": "Garamond", "size": 3938},
+      {"name": "New Baskerville", "size": 743},
+      {"name": "Bodoni", "size": 743},
      ]
     }
-   ]
+	]
+    {
+     "name": "Sans serif",
+     "children": [
+      {"name": "Ex1", "size": 3534},
+      {"name": "Ex2", "size": 5731},
+      {"name": "Ex3", "size": 3416}
+     ]
+    }
   }
  ]
 }
