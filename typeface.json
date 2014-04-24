@@ -1,109 +1,179 @@
 {
-  "name":"typeface",
-  "children":[
-    {
-      "name":"Roman",
-      "children":[
-        {
-          "name":"Serif",
-          "children":[
+   "name":"typeface",
+   "children":[
+      {
+         "name":"Roman",
+         "children":[
             {
-              "name":"Ex1",
-              "size":3938
+               "name":"Serif",
+               "children":[
+                  {
+                     "name":"Old Style",
+                     "size":3938
+                  },
+                  {
+                     "name":"Transitional",
+                     "size":3812
+                  },
+                  {
+                     "name":"Modern",
+                     "children":[
+                        {
+                           "name":"Garamond",
+                           "size":3534
+                        },
+                        {
+                           "name":"New Baskerville",
+                           "size":3534
+                        },
+                        {
+                           "name":"Bodoni",
+                           "size":3534
+                        }
+                     ]
+                  }
+               ]
             },
             {
-              "name":"Ex2",
-              "size":3812
+               "name":"Sans serif",
+               "children":[
+                  {
+                     "name":"Helvetica",
+                     "size":5731
+                  },
+                  {
+                     "name":"Futura",
+                     "size":5731
+                  },
+                  {
+                     "name":"Gill Sans",
+                     "size":5731
+                  },
+                  {
+                     "name":"Univers",
+                     "size":5731
+                  },
+                  {
+                     "name":"Frutiger",
+                     "size":5731
+                  },
+                  {
+                     "name":"Arial",
+                     "size":7840
+                  }
+               ]
             },
             {
-              "name":"Ex3",
-              "size":743
-            }
-          ]
-        },
-        {
-          "name":"Sans serif",
-          "children":[
-            {
-              "name":"Ex1",
-              "size":3534
+               "name":"Script",
+               "children":[
+                  {
+                     "name":"Coronet",
+                     "size":7074
+                  },
+                  {
+                     "name":"Zapfino",
+                     "size":7074
+                  }
+               ]
             },
             {
-              "name":"Ex2",
-              "size":5731
+               "name":"Ornamental",
+               "children":[
+                  {
+                     "name":"Mimicry",
+                     "size":7074
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Blackletter/gothic",
+         "children":[
+            {
+               "name":"Textualis",
+               "size":7074
             },
             {
-              "name":"Ex3",
-              "size":7840
-            }
-          ]
-        },
-        {
-          "name":"Script",
-          "children":[
+               "name":"Rotunda",
+               "size":7074
+            },
             {
-              "name":"Ex1",
-              "size":7074
-            }
-          ]
-        },
-        {
-          "name":"Ornamental",
-          "children":[
+               "name":"Schwabacher",
+               "size":7074
+            },
             {
-              "name":"Mimicry",
-              "size":7074
+               "name":"Fraktur",
+               "size":7074
             }
-          ]
-        }
-      ]
-    },
-    {
-      "name":"Blackletter",
-      "children":[
+         ]
+      },
+      {
+         "name":"Gaelic",
+         "children":[
 
-      ]
-    },
-    {
-      "name":"Gaelic",
-      "children":[
+         ]
+      },
+      {
+         "name":"Monospaced",
+         "children":[
+            {
+               "name":"Courier",
+               "size":7074
+            },
+            {
+               "name":"Prestige Elite",
+               "size":7074
+            },
+            {
+               "name":"Fixedsys",
+               "size":7074
+            },
+            {
+               "name":"Monaco",
+               "size":7074
+            }
+         ]
+      },
+      {
+         "name":"Symbol",
+         "children":[
+            {
+               "name":"Zapf Dingbats",
+               "size":7074
+            },
+            {
+               "name":"Sonata",
+               "size":7074
+            },
+            {
+               "name":"Wingdings",
+               "size":7074
+            }
+         ]
+      },
+      {
+         "name":"Effect",
+         "children":[
 
-      ]
-    },
-    {
-      "name":"Monospaced",
-      "children":[
-
-      ]
-    },
-    {
-      "name":"Symbol",
-      "children":[
-
-      ]
-    },
-    {
-      "name":"Effect",
-      "children":[
-
-      ]
-    },
-    {
-      "name":"CJK",
-      "children":[
-        {
-          "name":"Mincho",
-          "size":7074
-        },
-        {
-          "name":"Gothic",
-          "size":7074
-        },
-        {
-          "name":"Maru",
-          "size":7074
-        }
-      ]
-    }
-  ]
+         ]
+      },
+      {
+         "name":"CJK",
+         "children":[
+            {
+               "name":"Mincho",
+               "size":7074
+            },
+            {
+               "name":"Gothic",
+               "size":7074
+            },
+            {
+               "name":"Maru",
+               "size":7074
+            }
+         ]
+      }
+   ]
 }
