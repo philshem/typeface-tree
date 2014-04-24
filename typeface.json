@@ -1,40 +1,109 @@
 {
- "name": "Roman",
- "children": [
-  {
-   "name": "Serif",
-   "children": [
+  "name":"typeface",
+  "children":[
     {
-     "name": "Old style",
-     "children": [
-      {"name": "Ex1", "size": 3938},
-      {"name": "Ex2", "size": 743}
-     ]
+      "name":"Roman",
+      "children":[
+        {
+          "name":"Serif",
+          "children":[
+            {
+              "name":"Ex1",
+              "size":3938
+            },
+            {
+              "name":"Ex2",
+              "size":3812
+            },
+            {
+              "name":"Ex3",
+              "size":743
+            }
+          ]
+        },
+        {
+          "name":"Sans serif",
+          "children":[
+            {
+              "name":"Ex1",
+              "size":3534
+            },
+            {
+              "name":"Ex2",
+              "size":5731
+            },
+            {
+              "name":"Ex3",
+              "size":7840
+            }
+          ]
+        },
+        {
+          "name":"Script",
+          "children":[
+            {
+              "name":"Ex1",
+              "size":7074
+            }
+          ]
+        },
+        {
+          "name":"Ornamental",
+          "children":[
+            {
+              "name":"Mimicry",
+              "size":7074
+            }
+          ]
+        }
+      ]
     },
     {
-     "name": "Transitional",
-     "children": [
-      {"name": "Ex1", "size": 3938},
-      {"name": "Ex2", "size": 743}
-     ]
+      "name":"Blackletter",
+      "children":[
+
+      ]
     },
     {
-     "name": "Modern",
-     "children": [
-      {"name": "Garamond", "size": 3938},
-      {"name": "New Baskerville", "size": 743},
-      {"name": "Bodoni", "size": 743},
-     ]
-    }
-	]
+      "name":"Gaelic",
+      "children":[
+
+      ]
+    },
     {
-     "name": "Sans serif",
-     "children": [
-      {"name": "Ex1", "size": 3534},
-      {"name": "Ex2", "size": 5731},
-      {"name": "Ex3", "size": 3416}
-     ]
+      "name":"Monospaced",
+      "children":[
+
+      ]
+    },
+    {
+      "name":"Symbol",
+      "children":[
+
+      ]
+    },
+    {
+      "name":"Effect",
+      "children":[
+
+      ]
+    },
+    {
+      "name":"CJK",
+      "children":[
+        {
+          "name":"Mincho",
+          "size":7074
+        },
+        {
+          "name":"Gothic",
+          "size":7074
+        },
+        {
+          "name":"Maru",
+          "size":7074
+        }
+      ]
     }
-  }
- ]
+  ]
 }
